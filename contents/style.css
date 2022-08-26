@@ -6,12 +6,12 @@ html,body {
     display:flex;
     justify-content:center;
     background-color: #c2adc4;
-    height:15em;
+    height:10em;
 }
 
 #name{
-    height:22.5em;
-    width: 22.5em;
+    height:15em;
+    width: 15em;
 
 }
 
@@ -24,20 +24,20 @@ html,body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight:lighter;
     color:white;
-    font-size: 1.5em;
+    font-size: 1em;
     align-items:center;
 }
 
 #socials{
     display:flex;
     justify-content:space-between;
-    width: 12em;
+    width: 8em;
     justify-content:center;
     
 }
 #insta{
     height: 1.5em;
-    margin:1.2em;
+    margin:0.5em;
     flex:1;
 }
 
@@ -47,8 +47,8 @@ html,body {
 
 
 #yt{
-    height: 2em;
-    margin:1em;
+    height: 1.5em;
+    margin:0.5em;
     flex:1;
 }
 
@@ -58,7 +58,7 @@ html,body {
 
 #soundcloud{
     height: 1.5em;
-    margin:1.2em;
+    margin:0.5em;
     flex:1;
 }
 
