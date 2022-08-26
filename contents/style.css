@@ -7,6 +7,7 @@ html,body {
     justify-content:center;
     background-color: #c2adc4;
     height:10em;
+    width: fill;
 }
 
 #name{
@@ -26,6 +27,18 @@ html,body {
     color:white;
     font-size: 1em;
     align-items:center;
+    padding-left: 6em;
+    padding-right:6em;
+}
+
+#songs:hover{
+    color:#c2adc4;
+    transform: scale(1.1);
+}
+
+#contact:hover{
+    color:#c2adc4;
+    transform: scale(1.1);
 }
 
 #socials{
@@ -66,7 +79,61 @@ html,body {
     transform: scale(1.2);
 }
 
+#Intro{
+    display:flex;
+    justify-content:center;
+}
 
+#Profile{
+    flex:0.5;
+    max-width: 45%;
+    height: 40em;
+    object-fit: cover;
+}
+
+#container{
+    flex:1;
+    background-color:#c2adc4;
+    justify-content:center;
+    align-items:center;
+}
+
+#bio{
+    justify-content:center;
+    
+    height: 10em;
+    padding:5em;
+    text-align:center;
+    font-family:Tahoma;
+    font-style:italic;
+    color:white;
+}
+
+#listen{
+    justify-content:center;
+    text-align:center;
+    padding: 1em;
+    border: solid 2px #90678d;
+    height: 1em;
+    width: 5em;
+    font-family:Impact;
+    color:white;
+}
+
+#listen:hover{
+    color:#90678d;
+    transform: scale(1.1);
+}
+
+#row{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: fill;
+    height: 8em;
+    padding: 2em;
+    
+}
 
 
 
