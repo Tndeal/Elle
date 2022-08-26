@@ -41,16 +41,29 @@ html,body {
     flex:1;
 }
 
+#insta:hover{
+    transform: scale(1.2);
+}
+
+
 #yt{
     height: 2em;
     margin:0.5em;
     flex:1;
 }
 
+#yt:hover{
+    transform: scale(1.2);
+}
+
 #soundcloud{
     height: 2em;
     margin:0.5em;
     flex:1;
+}
+
+#soundcloud:hover{
+    transform: scale(1.2);
 }
 
 
