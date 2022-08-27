@@ -31,6 +31,26 @@ html,body {
     padding-right:6em;
 }
 
+#songs{
+    color:white;
+    text-decoration:none;
+    box-shadow:none;
+}
+
+#home{
+    color:white;
+    text-decoration:none;
+    box-shadow:none;
+}
+
+#home:hover{
+    color:#c2adc4;
+    transform: scale(1.1);
+}
+
+a:link{
+    text-decoration:none;
+}
 #songs:hover{
     color:#c2adc4;
     transform: scale(1.1);
@@ -104,7 +124,7 @@ html,body {
     height: 10em;
     padding:5em;
     text-align:center;
-    font-family:Tahoma;
+    font-family:'Titillium Web', sans-serif;
     font-style:italic;
     color:white;
 }
@@ -135,5 +155,64 @@ html,body {
     
 }
 
+#srow{
+    display:flex;
+    background-color: #c2adc4;
+    height: 13em;
+    width: fill;
+    padding:2em;
+    justify-content:space-around;
+}
 
+#song{
+    display:flex;
+    background-color:white;
+    height:10em;
+    width:22em;
+    padding:1em;
+    box-shadow:0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+#block{
+    align-items: center;
+    width: 12em;
+    height:8em;
+    padding-top:1em;
+    padding-inline:2em;
+    justify-content:center;
+
+}
+
+#cover{
+    height:10em;
+    width:10em;
+    box-shadow:0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+#title{
+    text-align:center;
+    font-family:'Titillium Web', sans-serif;
+    font-style:italic;
+    color:#90678d;
+
+}
+
+#play{
+    justify-content:center;
+    text-align:center;
+    padding: 0.5em;
+    border: solid 1px #90678d;
+    height: 1em;
+    width: 3em;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    color:#90678d;
+    margin:1em;
+    margin-left:2em;
+}
+
+#play:hover{
+    color:#90678d;
+    transform: scale(1.1);
+}
 
