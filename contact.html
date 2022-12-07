@@ -36,11 +36,55 @@
     </div>
 
     <div id="page">
-        <div id="contacttitle">Contact</div>
-        <div id="contactsubtitle">Please contact me via email or phone as listed below</div>
-        <div id="contactbox">
-            
-        </div>
+        <section class="contact" id="contact">
+            <h2>Get in touch!</h2>
+            <div class="contact-form-container">
+                <div class="contact-form">
+                    <form action="https://formspree.io/f/xbjbnkng" method="POST">
+                        <div class="form-control">
+                            <label for="name">Name</label>
+                            <input
+                            type="text"
+                            id="name-contact"
+                            name="sender-name"
+                            placeholder="Enter your name"
+                            class="input-field"
+                            required
+                            />
+                        </div>
+                        <div class="form-control">
+                            <label for="email">Email</label>
+                            <input
+                            type="email"
+                            id="email"
+                            name="sender-email"
+                            placeholder="Enter your email"
+                            class="input-field"
+                            required
+                            />
+                        </div>
+                        <div class="form-control">
+                            <label for="message">Message</label>
+                            <textarea
+                            id="message"
+                            cols="60"
+                            rows="10"
+                            placeholder="Enter your message"
+                            name="message"
+                            class="input-field"
+                            required
+                            ></textarea>
+                        </div>
+                        <input
+                        type="submit"
+                        value="Submit"
+                        id="submit-btn"
+                        class="submit-btn"
+                        />
+                    </form>
+                </div>
+            </div>
+        </section>
     </div>
 </body>
 </html>
